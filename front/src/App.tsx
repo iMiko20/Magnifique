@@ -81,7 +81,7 @@ function HomePage() {
             <div className="flex items-center gap-8">
               <h1 className="text-2xl font-bold text-gray-900">Magnifique</h1>
               <nav className="hidden md:flex space-x-1">
-                {[{ id: 'home', label: 'Inicio' }, { id: 'nuevos', label: 'Nuevos' }, { id: 'ofertas', label: 'Ofertas' }, { id: 'tendencias', label: 'Tendencias' }].map((section) => (
+                {[{ id: 'home', label: 'Inicio' }].map((section) => (
                   <button
                     key={section.id}
                     onClick={() => scrollToSection(section.id)}
